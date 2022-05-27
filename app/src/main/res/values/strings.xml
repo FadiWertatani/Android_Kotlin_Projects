@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">android_kotlin_learning</string>
+    <string name="hi_m_fadi">Hi\'m Fadi</string>
+    <string name="welcome">Lets Count Together</string>
+    <string name="Plus">Plus</string>
+    <string name="Minus">Minus</string>
+    <string name="reset">Reset</string>
+    <string name="Welcome">Welcome to our restaurant</string>
+    <string name="Burger">Which kind of burger you need to order ?</string>
+    <string name="Extras">Which Extras you want to add ?</string>
+    <string name="Cheese">Cheese</string>
+    <string name="Salad">Salad</string>
+    <string name="Onion">Onion</string>
+    <string name="Beef">Beef</string>
+    <string name="Chicken">Chicken</string>
+    <string name="Shrimp">Shrimp</string>
+    <string name="Order">Order</string>
+</resources>
