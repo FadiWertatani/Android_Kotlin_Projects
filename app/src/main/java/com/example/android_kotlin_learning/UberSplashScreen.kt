@@ -21,4 +21,4 @@ class UberSplashScreen : AppCompatActivity() {
         },5000)
 
     }
-}
+} 

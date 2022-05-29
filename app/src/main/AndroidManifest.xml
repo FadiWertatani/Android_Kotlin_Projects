@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_kotlin_learning">
         <activity
+            android:name=".PingPongHomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UberSplashScreen"
+            android:exported="false" />
+        <activity
             android:name=".UberSignUp"
             android:exported="false" />
         <activity
@@ -22,7 +28,7 @@
             android:name=".ResrtaurantMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".UberSplashScreen"
+            android:name=".HomeScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

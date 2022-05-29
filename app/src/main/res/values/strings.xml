@@ -38,4 +38,8 @@
     <string name="sign_up">Sign Up</string>
     <string name="sign_up_to_continue">Sign Up to continue</string>
     <string name="name">Name</string>
+    <string name="counter_app">Counter App</string>
+    <string name="restaurant_app">Restaurant App</string>
+    <string name="uber_app">Uber App</string>
+    <string name="already_have_an_acoount">Already have an acoount?</string>
 </resources>
