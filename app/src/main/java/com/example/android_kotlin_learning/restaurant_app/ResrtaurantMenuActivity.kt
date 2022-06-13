@@ -1,4 +1,4 @@
-package com.example.android_kotlin_learning
+package com.example.android_kotlin_learning.restaurant_app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

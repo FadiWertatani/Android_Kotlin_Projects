@@ -5,12 +5,27 @@
       <map>
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1905" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1905" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_drawer.xml" value="0.16" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_home_screen.xml" value="0.22573749465583584" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_menu_learning.xml" value="0.20296570898980537" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_resrtaurant_menu.xml" value="0.4" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_todo_list.xml" value="0.4" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_uber_login.xml" value="0.264" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_uber_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/activity_uber_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/fragment_archive.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/fragment_inbox.xml" value="0.20018535681186284" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/fragment_send.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/fragment_starred.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/item_todo.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/layout/nav_header_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/android_kotlin_learning/app/src/main/res/menu/home_drawable.xml" value="0.264" />
+        <entry key="..\:/Users/pc/Desktop/f/app/src/main/res/layout/activity_new_note.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/Desktop/f/app/src/main/res/layout/activity_notes.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/Desktop/f/app/src/main/res/layout/activity_todo_list.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/Desktop/f/app/src/main/res/layout/item_notes.xml" value="0.22573749465583584" />
+        <entry key="..\:/Users/pc/Desktop/f/app/src/main/res/layout/item_todo.xml" value="0.22573749465583584" />
       </map>
     </option>
   </component>

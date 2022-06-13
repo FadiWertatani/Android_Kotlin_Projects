@@ -1,4 +1,4 @@
-package com.example.android_kotlin_learning
+package com.example.android_kotlin_learning.CounterApp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

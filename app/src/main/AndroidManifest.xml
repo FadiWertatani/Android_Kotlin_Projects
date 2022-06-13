@@ -10,25 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_kotlin_learning">
         <activity
-            android:name=".PingPongHomeScreen"
-            android:exported="false" />
-        <activity
-            android:name=".UberSplashScreen"
-            android:exported="false" />
-        <activity
-            android:name=".UberSignUp"
-            android:exported="false" />
-        <activity
-            android:name=".UberLoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ResrtaurantMenuActivity"
+            android:name=".Notes.UI.NewNoteActivity"
             android:exported="false" />
         <activity
             android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".ToDoApp.UI.TodoListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth_system.UberSplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".auth_system.UberSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".auth_system.UberLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CounterApp.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".restaurant_app.ResrtaurantMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notes.UI.NotesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

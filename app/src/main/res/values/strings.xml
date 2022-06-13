@@ -42,4 +42,23 @@
     <string name="restaurant_app">Restaurant App</string>
     <string name="uber_app">Uber App</string>
     <string name="already_have_an_acoount">Already have an acoount?</string>
+    <string name="add">ADD</string>
+    <string name="lorem_ipsum">Lorem_ipsum</string>
+    <string name="todo_list">Todo list</string>
+    <string name="drawable_screen">Drawable Screen</string>
+    <string name="my_password">My password</string>
+    <string name="my_phone">My phone</string>
+    <string name="my_email">My Email</string>
+    <string name="my_name">My Name</string>
+    <string name="wertatanifadi_gmial_com">Wertatanifadi@gmial.com</string>
+    <string name="fadi">Fadi</string>
+    <string name="just_a_drawable">Just a drawable</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="archive_fragment">Archive Fragment</string>
+    <string name="starred_fragment">Starred Fragment</string>
+    <string name="send_fragment">Send Fragment</string>
+    <string name="inbox_fragment">Inbox Fragment</string>
+    <string name="plus">+</string>
+    <string name="put_your_note_here">Put your note here :</string>
 </resources>

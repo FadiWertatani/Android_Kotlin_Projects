@@ -1,9 +1,10 @@
-package com.example.android_kotlin_learning
+package com.example.android_kotlin_learning.auth_system
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.android_kotlin_learning.databinding.ActivityUberLoginBinding
+import com.example.android_kotlin_learning.restaurant_app.ResrtaurantMenuActivity
 
 class UberLoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityUberLoginBinding
@@ -15,12 +16,12 @@ class UberLoginActivity : AppCompatActivity() {
 
 
         binding.button.setOnClickListener {
-            val intent = Intent(this,ResrtaurantMenuActivity::class.java)
+            val intent = Intent(this, ResrtaurantMenuActivity::class.java)
             startActivity(intent)
             finish()
         }
         binding.SignUp.setOnClickListener{
-            val intent = Intent(this,UberSignUp::class.java)
+            val intent = Intent(this, UberSignUp::class.java)
             startActivity(intent)
             finish()
         }

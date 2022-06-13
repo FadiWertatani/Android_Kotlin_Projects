@@ -43,4 +43,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ActivityRestaurant" />
 
+    <Button
+        android:id="@+id/ActivityTodoList"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/todo_list"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityUberApp" />
+
+    <Button
+        android:id="@+id/ActivityDrawer"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/just_a_drawable"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityTodoList" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

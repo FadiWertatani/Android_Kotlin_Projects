@@ -1,4 +1,4 @@
-package com.example.android_kotlin_learning
+package com.example.android_kotlin_learning.auth_system
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -15,7 +15,7 @@ class UberSplashScreen : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler().postDelayed({
-            val intent = Intent(this,UberLoginActivity::class.java)
+            val intent = Intent(this, UberLoginActivity::class.java)
             startActivity(intent)
             finish()
         },5000)
