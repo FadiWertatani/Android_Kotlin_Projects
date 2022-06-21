@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/ActivityCounter"
-        android:layout_width="370dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="@string/counter_app"
@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/ActivityRestaurant"
-        android:layout_width="370dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="@string/restaurant_app"
@@ -33,7 +33,7 @@
 
     <Button
         android:id="@+id/ActivityUberApp"
-        android:layout_width="370dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="@string/uber_app"
@@ -45,7 +45,7 @@
 
     <Button
         android:id="@+id/ActivityTodoList"
-        android:layout_width="370dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="@string/todo_list"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/ActivityDrawer"
-        android:layout_width="370dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="@string/just_a_drawable"
@@ -68,6 +68,32 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ActivityTodoList" />
+
+    <Button
+        android:id="@+id/ActivityNotes"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/notes_app"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityDrawer" />
+
+    <Button
+        android:id="@+id/ActivityShoppingItemList"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/shopping_item_list"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityNotes" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

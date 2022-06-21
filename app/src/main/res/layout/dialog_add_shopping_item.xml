@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_200sdp"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editTextShoppingItem"
+        android:layout_width="183dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:ems="10"
+        android:hint="@string/add_item_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NewItem" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/enter_amount"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toEndOf="@+id/editTextShoppingItem"
+        app:layout_constraintTop_toTopOf="@+id/editTextShoppingItem" />
+
+    <TextView
+        android:id="@+id/NewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/new_item"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnShoppingItemCancel"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnShoppingItemAdd"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <Button
+        android:id="@+id/btnShoppingItemAdd"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toEndOf="@+id/btnShoppingItemCancel"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAmount" />
+</androidx.constraintlayout.widget.ConstraintLayout>

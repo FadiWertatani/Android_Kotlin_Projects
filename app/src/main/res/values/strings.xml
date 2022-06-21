@@ -61,4 +61,14 @@
     <string name="inbox_fragment">Inbox Fragment</string>
     <string name="plus">+</string>
     <string name="put_your_note_here">Put your note here :</string>
+    <string name="new_item">New Item</string>
+    <string name="add_item_name">Add Item Name</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="minus">-</string>
+    <string name="cancel">Cancel</string>
+    <string name="shopping_item_list">Shopping Item List</string>
+    <string name="notes_app">Notes App</string>
+    <string name="notes_title">Notes Title :</string>
+    <string name="enter_your_notes">Enter your notes</string>
+    <string name="enter_you_notes_title">Enter you notes title</string>
 </resources>

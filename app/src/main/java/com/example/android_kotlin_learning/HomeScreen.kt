@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android_kotlin_learning.CounterApp.MainActivity
+import com.example.android_kotlin_learning.Notes.UI.utils.NotesActivity
+import com.example.android_kotlin_learning.ShoppingListApp.UI.utils.ShoppingActivity
 import com.example.android_kotlin_learning.ToDoApp.UI.TodoListActivity
 import com.example.android_kotlin_learning.auth_system.UberSplashScreen
 import com.example.android_kotlin_learning.databinding.ActivityHomeScreenBinding
@@ -38,6 +40,16 @@ class HomeScreen : AppCompatActivity() {
         }
         binding.ActivityDrawer.setOnClickListener {
             val intent = Intent(this, ActivityDrawer::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.ActivityNotes.setOnClickListener {
+            val intent = Intent(this, NotesActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.ActivityShoppingItemList.setOnClickListener {
+            val intent = Intent(this, ShoppingActivity::class.java)
             startActivity(intent)
             finish()
         }
