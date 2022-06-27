@@ -3,6 +3,7 @@
     package="com.example.android_kotlin_learning">
 
     <application
+        android:name=".BreakingBadApi.BreakingBadApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,16 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_kotlin_learning">
         <activity
+            android:name=".BreakingBadApi.UI.utils.BreakingBadActivity"
+            android:exported="false" />
+        <activity
             android:name=".Notes.UI.utils.NotesActivity"
             android:exported="false" />
         <activity
             android:name=".ShoppingListApp.UI.utils.ShoppingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MyNotes.utils.NewNoteActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MyNotes.utils.NotesActivity"
             android:exported="false" />
         <activity
             android:name=".ActivityDrawer"
