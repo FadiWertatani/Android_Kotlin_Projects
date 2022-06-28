@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_kotlin_learning">
         <activity
+            android:name=".PostsApiApp.UI.utils.PostActivity"
+            android:exported="false" />
+        <activity
             android:name=".BreakingBadApi.UI.utils.BreakingBadActivity"
             android:exported="false" />
         <activity
