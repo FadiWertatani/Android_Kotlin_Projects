@@ -72,4 +72,7 @@
     <string name="enter_your_notes">Enter your notes</string>
     <string name="enter_you_notes_title">Enter you notes title</string>
     <string name="character_photo">Character photo</string>
+    <string name="post_title">Post title</string>
+    <string name="delete">Delete</string>
+    <string name="add_post">Add Post</string>
 </resources>
